@@ -21,4 +21,13 @@ public void doGet(HttpServletRequest request,
 	request.getRequestDispatcher("/respuesta.jsp").include(request, response); 
 
  }
+
+public void doPost(HttpServletRequest request, 
+		  HttpServletResponse response) 
+		  throws ServletException, IOException {
+	
+				System.out.println("Do your post action here");
+		  
+
+		 }
 }
